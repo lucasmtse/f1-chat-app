@@ -1,0 +1,282 @@
+2025-10-16 01:45:48,070 | INFO | f1_app | Query: Hey, 
+2025-10-16 01:45:48,356 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-16 01:45:54,480 | INFO | f1_app | Query: hey 
+2025-10-16 01:45:54,680 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-16 01:46:00,962 | INFO | f1_app | Query: hey 
+2025-10-16 01:47:39,337 | INFO | f1_app | Query: Singapore 2023
+2025-10-16 01:48:15,238 | INFO | f1_app | Query: Qui a gagné la saison 2024 de fomrule 1 ?
+2025-10-16 01:53:03,728 | INFO | f1_app | Query: qui a gagné le grand prix du canada en 2023 ? 
+2025-10-16 02:12:19,444 | INFO | f1_app | Query: singapore 2023
+2025-10-16 02:13:41,286 | INFO | f1_app | Query: 2023
+2025-10-16 02:14:03,901 | INFO | f1_app | Query: 2025
+2025-10-16 02:18:46,529 | INFO | f1_app | Query: monaco 2023
+
+2025-10-16 13:14:00,698 | INFO | f1_app | Query: Who won the constructor season of 2021
+2025-10-16 13:14:48,774 | INFO | f1_app | Query: How many podiums did mercdes ? 
+2025-10-16 13:15:00,450 | INFO | f1_app | Query: How many podiums did mercdes in 2021 ?
+2025-10-16 13:23:40,986 | INFO | f1_app | Query: o 2021
+2025-10-16 13:23:45,568 | INFO | f1_app | Query: monaco 2022
+2025-10-16 13:23:59,231 | INFO | f1_app | Query: Monaco 2022
+2025-10-16 13:24:10,846 | INFO | f1_app | Query: canada 2023
+2025-10-16 13:27:08,063 | INFO | f1_app | Query: 2025
+2025-10-16 13:27:20,426 | INFO | f1_app | Query: cananda 2021
+2025-10-16 13:27:35,243 | INFO | f1_app | Query: Canada 2021
+2025-10-16 13:27:43,210 | INFO | f1_app | Query: Singapore 2023
+2025-10-16 13:27:48,329 | INFO | f1_app | Query: 2023
+2025-10-16 13:29:03,558 | INFO | f1_app | Query: caca c bon
+2025-10-16 13:53:19,848 | INFO | f1_app | Query: Canada gp 2021
+2025-10-16 13:54:48,824 | INFO | f1_app | Query: 2021
+2025-10-16 14:14:15,322 | INFO | f1_app | Query: 2021
+2025-10-16 14:24:30,742 | INFO | f1_app | Query: 2022
+2025-10-16 14:26:17,454 | INFO | f1_app | Query: 2022
+2025-10-16 14:44:10,660 | INFO | f1_app | Query: 2022
+2025-10-16 14:45:07,111 | INFO | f1_app | Query: 2022
+2025-10-16 14:45:34,831 | INFO | f1_app | Query: 2024
+2025-10-16 14:56:31,472 | INFO | f1_app | Query: 2022
+2025-10-16 14:58:27,876 | INFO | f1_app | Query: Can describe the season 2022 pls ?
+2025-10-16 14:58:46,542 | INFO | f1_app | Query: Can describe the season 2021 ?
+2025-10-16 14:59:06,683 | INFO | f1_app | Query: 2022
+2025-10-16 15:05:34,844 | INFO | f1_app | Query: singapore gp 
+2025-10-16 15:05:52,658 | INFO | f1_app | Query: Singapore gp 2022
+2025-10-16 15:31:48,537 | INFO | f1_app | Query: Singapore gp 2022
+2025-10-16 15:33:55,544 | INFO | f1_app | Query: Singapore 202
+2025-10-16 15:34:15,065 | INFO | f1_app | Query: Singapore 2022
+2025-10-16 15:35:00,405 | INFO | f1_app | Query: Singapore 2022
+2025-10-16 15:35:59,150 | INFO | f1_app | Query: Singapore 2022
+2025-10-16 15:40:39,989 | INFO | f1_app | Query: Singapore 2022
+2025-10-16 15:41:37,879 | INFO | f1_app | Query: Singapore 2022
+2025-10-16 17:25:16,207 | INFO | f1_app | Query: Singapore 2022
+2025-10-16 17:25:41,937 | INFO | f1_app | Query: Singapore 2022
+2025-10-16 17:26:30,007 | INFO | f1_app | Query: 2022
+2025-10-16 17:26:40,544 | INFO | f1_app | Query: Singapore 2022
+2025-10-16 18:11:48,612 | INFO | f1_app | Query: Singapore 2022
+2025-10-16 18:27:47,627 | INFO | f1_app | Query: Singapore 2022
+2025-10-16 18:28:59,275 | INFO | f1_app | Query: 2024
+2025-10-16 18:32:44,158 | INFO | f1_app | Query: 2022
+2025-10-16 18:32:50,234 | INFO | f1_app | Query: 2022
+2025-10-16 18:32:57,961 | INFO | f1_app | Query: 2022 canada
+2025-10-16 18:35:28,881 | INFO | f1_app | Query: 2022 canada
+2025-10-16 18:42:04,092 | INFO | f1_app | Query: 2022 canada
+2025-10-16 21:16:47,769 | INFO | f1_app | Query: 2022
+2025-10-16 21:17:11,036 | INFO | f1_app | Query: 2022
+2025-10-16 21:17:20,088 | INFO | f1_app | Query: 2022 canada
+2025-10-16 21:39:52,898 | INFO | f1_app | Query: Canada 2023
+2025-10-16 21:59:11,640 | INFO | f1_app | Query: tu marche mainteannt 
+2025-10-20 13:28:31,530 | INFO | f1_app | Query: canada 2022
+2025-10-20 13:28:41,187 | INFO | f1_app | Query: canada 2022
+2025-10-20 13:28:55,822 | INFO | f1_app | Query: 2022
+2025-10-20 15:40:46,685 | INFO | f1_app | Query: gp Monaco 2022
+2025-10-20 15:41:06,577 | INFO | f1_app | Query: gp Monaco 2022
+2025-10-20 15:42:23,605 | INFO | f1_app | Query: singapore 2022 gp 
+2025-10-20 15:44:23,891 | INFO | f1_app | Query: singapore 2022 gp
+2025-10-20 15:49:36,994 | INFO | f1_app | Query: singapore 2022 gp
+2025-10-20 15:52:08,339 | INFO | f1_app | Query: singapore 2022 gp
+2025-10-20 15:54:52,956 | INFO | f1_app | Query: singapore 2022 gp
+2025-10-20 15:55:12,436 | INFO | f1_app | Query: singapore 2025 gp
+2025-10-20 15:55:14,707 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-20 15:55:32,089 | INFO | f1_app | Query: singapore 2023
+2025-10-20 15:55:46,111 | INFO | f1_app | Query: singapore 2023
+2025-10-20 16:52:50,423 | INFO | f1_app | Query: Summarize Monaco 2024 Qualifying
+2025-10-20 16:54:24,343 | INFO | f1_app | Query: Summarize Monaco 2024 rrace
+2025-10-20 16:54:41,701 | INFO | f1_app | Query: Summarize Monaco 2024 
+2025-10-20 16:58:44,648 | INFO | f1_app | Query: Someone DNF in Bahrain Grand Prix 2024 ?
+2025-10-20 16:58:48,298 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-20 16:58:54,304 | INFO | f1_app | Query: Someone DNF in Bahrain Grand Prix 2024 ?
+2025-10-20 16:58:56,002 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-20 16:59:13,623 | INFO | f1_app | Query: Someone DNF in Canda Grand Prix 2024 ?
+2025-10-20 16:59:21,095 | INFO | f1_app | Query: Someone DNF in Canda Grand Prix 2024 ?
+2025-10-20 16:59:34,395 | INFO | f1_app | Query: Someone DNF in Canda Grand Prix 2024 ?
+2025-10-20 16:59:46,294 | INFO | f1_app | Query: Someone DNF in Canada Grand Prix 2024 ?
+2025-10-20 16:59:48,765 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-20 17:00:00,002 | INFO | f1_app | Query: Someone DNF in Canda Grand Prix 2024 ?
+2025-10-20 17:00:05,348 | INFO | f1_app | Query: Someone DNF in Canda Grand Prix 2024 ?
+2025-10-20 17:00:18,395 | INFO | f1_app | Query: Someone DNF in Canda Grand Prix 2024 ?
+2025-10-20 17:00:31,129 | INFO | f1_app | Query: Someone DNF in Canada Grand Prix 2024 ?
+2025-10-20 17:00:49,862 | INFO | f1_app | Query: Someone DNF in Canada Grand Prix 2025?
+2025-10-20 17:00:52,261 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-20 17:01:32,101 | INFO | f1_app | Query: Who DNF in Canada 2025 gp ?
+2025-10-20 17:01:42,476 | INFO | f1_app | Query: Who DNF in Canada 2025 gp ?
+2025-10-20 17:03:50,190 | INFO | f1_app | Query: List number of podiums of Lando Norris in 2025
+2025-10-20 17:04:00,530 | INFO | f1_app | Query: List number of podiums of Lando Norris in 2025
+2025-10-20 17:04:07,820 | INFO | f1_app | Query: Season 20255 
+2025-10-20 17:04:08,063 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-20 17:04:15,914 | INFO | f1_app | Query: Season 2025
+2025-10-20 17:04:26,904 | INFO | f1_app | Query: Season 2023
+2025-10-20 17:05:30,641 | INFO | f1_app | Query: Season overview 2024: champions, wins per driver, podiums per team
+2025-10-20 17:07:17,843 | INFO | f1_app | Query: 2024
+2025-10-20 17:07:18,520 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-20 17:07:27,099 | INFO | f1_app | Query: 2025
+2025-10-20 17:08:30,841 | INFO | f1_app | Query: Season overview 2024: champions, wins per driver, podiums per team
+2025-10-20 17:09:37,729 | INFO | f1_app | Query: season overview 2024: champions, wins per driver, podiums per team
+2025-10-20 17:11:27,211 | INFO | f1_app | Query: season overview 2024: champions, wins per driver, podiums per team
+2025-10-20 17:11:32,346 | INFO | f1_app | Query: season overview 2024: champions, wins per driver, podiums per team
+2025-10-20 17:16:00,667 | INFO | f1_app | Query: season overview 2024: champions, wins per driver, podiums per team
+2025-10-20 17:16:01,279 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-20 17:16:20,817 | INFO | f1_app | Query: season 2024: champions, wins per driver, podiums per team
+2025-10-20 17:16:21,309 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-20 17:16:28,372 | INFO | f1_app | Query: season 2024:
+2025-10-20 17:16:47,230 | INFO | f1_app | Query: season 2024 who had the more wins
+2025-10-20 17:17:27,795 | INFO | f1_app | Query: Who had the most wins in the 2024 season?
+2025-10-20 17:20:39,892 | INFO | f1_app | Query: What is the result of Lando Norris at Suzuka 2024 gp ?
+2025-10-20 17:20:42,205 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 429. Body: {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+2025-10-20 17:21:18,874 | INFO | f1_app | Query: What is the result of Lando Norris at Suzuka 2022 gp ?
+2025-10-20 17:21:27,923 | INFO | f1_app | Query: What is the result of Lando Norris at Suzuka 2025 gp ?
+2025-10-20 17:21:42,919 | INFO | f1_app | Query: What is the result of Lando Norris at Suzuka 2023 gp ?
+2025-10-20 17:22:04,410 | INFO | f1_app | Query: What is the result of Lando Norris at Suzuka 2023 gp ?
+2025-10-20 17:22:28,734 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 400. Body: {"object":"error","message":"Invalid model: mistral-large","type":"invalid_model","param":null,"code":"1500"}
+2025-10-20 17:22:53,084 | INFO | f1_app | Query: What is the result of Lando Norris at Suzuka 2023 gp ?
+2025-10-20 17:24:53,720 | INFO | f1_app | Query: Sprint 2025 miami
+2025-10-20 17:31:05,904 | INFO | f1_app | Query: teets
+2025-10-20 17:31:06,073 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 401 Content-Type "application/json; charset=utf-8". Body: {"detail":"Unauthorized"}
+2025-10-20 17:31:44,494 | INFO | f1_app | Query:  2023 gp ?
+2025-10-20 17:31:45,299 | ERROR | f1_app | LLM call failed
+Traceback (most recent call last):
+  File "C:\Users\lucas\Projets\f1_chat_app\app.py", line 118, in <module>
+    answer = client.chat(payload)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\Projets\f1_chat_app\agents\llm_client.py", line 17, in chat
+    resp = self.client.chat.complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lucas\anaconda3\envs\f1-analysis\Lib\site-packages\mistralai\chat.py", line 248, in complete
+    raise models.SDKError("API error occurred", http_res, http_res_text)
+mistralai.models.sdkerror.SDKError: API error occurred: Status 401 Content-Type "application/json; charset=utf-8". Body: {"detail":"Unauthorized"}
