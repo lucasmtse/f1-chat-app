@@ -1,6 +1,6 @@
 # 🏎️ F1 Chat App — Streamlit
 
-An interactive AI assistant to explore Formula 1 seasons and Grand Prix sessions using **OpenF1** and **Ergast** APIs, with intelligent text generation powered by **Mistral**. The LLM is using the fact extract on the data base for answer to a query.
+An interactive AI assistant to explore Formula 1 seasons and Grand Prix sessions using **OpenF1** and **Ergast** APIs, with intelligent text generation powered by **Mistral**. The LLM is using **the facts** extract on the data base for answer to a query.
 
 ---
 
