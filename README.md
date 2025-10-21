@@ -19,8 +19,8 @@ An interactive AI assistant to explore Formula 1 seasons and Grand Prix sessions
 | Example | Prompt |
 |----------|---------|
 | **Race** | `Summarize the Bahrain Grand Prix 2024` |
-| **Driver result race** | `Summarize Monaco 2024 Qualifying` |
-| **Season** | `Summarize Monza 2022` |
+| **Driver result race** | `Summarize the race of Leclerc in Monacio 2024` |
+| **Season** | `Summarize 2022 season` |
 
 ## 📸 Suggested screenshots
 
