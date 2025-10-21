@@ -2,6 +2,7 @@
 
 An interactive AI assistant to explore Formula 1 seasons and Grand Prix sessions using **OpenF1** and **Ergast** APIs, with intelligent text generation powered by **Mistral**. The LLM is using **the facts** extract on the data base for answer to a query.
 
+> ⚠️ **The main goal of the chatbot is not to speculate or invent, but to rely solely on verified facts.**
 ---
 
 ## 🚀 Features
